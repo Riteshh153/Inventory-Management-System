@@ -1,0 +1,54 @@
+:root {
+  --color-primary-dark: #173D32;
+  --color-btn-green: #214D39;
+  --color-btn-hover: #163628;
+  --color-pale-green: #D6E8B5;
+  --color-pale-green-soft: rgba(214, 232, 181, 0.18);
+  --color-pale-green-subtle: #F3F8EC;
+  --color-main-text: #202923;
+  --color-secondary-text: #7C857F;
+  --color-input-border: #DCE2DD;
+  --color-input-border-hover: #B5BFB7;
+  --color-white: #FFFFFF;
+  --color-error: #D32F2F;
+  --color-error-bg: #FFF5F5;
+  --color-error-border: #FFCDD2;
+  --color-focus-ring: rgba(33, 77, 57, 0.2);
+  --font-sans: 'Inter', 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+  font-family: var(--font-sans);
+  background-color: var(--color-white);
+  color: var(--color-main-text);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+}
