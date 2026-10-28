@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Stockwise — Smart Inventory Management System
 
 A production-grade, full-stack Inventory Management System featuring a high-performance React + Vite dashboard and a robust Node.js/Express REST API backed by MySQL 8+.
@@ -175,3 +176,6 @@ TEST RESULTS: 15 passed, 0 failed
 2. **Password Security**: All credentials are encrypted using `bcrypt` with salt rounds. Passwords and hashes are never exposed in JSON responses.
 3. **Audit Trail**: Every stock change is immutably logged to `stock_movements` with reference IDs and user attribution.
 4. **Data Validation**: Request payloads are strictly verified against `zod` schemas before hitting controllers.
+=======
+# Inventory-Management-System
+>>>>>>> 088188c1376ead5e28edfe41cc70ec703bf6c359
